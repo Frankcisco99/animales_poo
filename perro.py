@@ -6,7 +6,7 @@ class Perro:
         self._edad = edad
         
     def mi_nombre(self):
-        return f"Mi nombre es {self._nombre}"
+        return f"Mi nombre {self._nombre}"
 
 
 perro1 = Perro("Blanco", "Poddle", 2)
